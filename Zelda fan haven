@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zelda Fan Haven</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f1e9;
+      color: #2c2c2c;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #0d3b66;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #145da0;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      padding: 2rem;
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .card h2 {
+      margin-top: 0;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #0d3b66;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Zelda Fan Haven</h1>
+    <p>Your sanctuary for all things Hyrule</p>
+  </header>
+  <nav>
+    <a href="#news">News</a>
+    <a href="#games">Games</a>
+    <a href="#guides">Guides</a>
+    <a href="#community">Community</a>
+  </nav>
+  <div class="container">
+    <div class="card" id="news">
+      <h2>Latest Zelda News</h2>
+      <p>The Legend of Zelda: Tears of the Kingdom continues to captivate fans with its massive open world and intricate puzzles. Rumors swirl about a future DLC expansion that may introduce new dungeons and gameplay mechanics.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/en/e/e3/The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg" alt="Tears of the Kingdom cover art">
+    </div>
+    <div class="card" id="games">
+      <h2>Game Catalog</h2>
+      <p>From the pixelated charm of the original NES classic to the sweeping landscapes of Breath of the Wild, explore every adventure Link has taken through the ages.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/en/0/0e/Legend_of_zelda_logo.png" alt="Zelda logo">
+    </div>
+    <div class="card" id="guides">
+      <h2>Walkthroughs & Tips</h2>
+      <p>Discover hidden secrets, shrine locations, Korok seed maps, and expert tips on how to defeat the toughest bosses. Whether you're a new adventurer or a seasoned hero, our guides will help you master every challenge.</p>
+      <h3>Popular Shrine Guides</h3>
+      <ul>
+        <li><strong>In-Isa Shrine (Great Sky Island)</strong> – Use the Fuse ability to attach a boulder to your weapon to break through the rocks blocking your path. The shrine teaches you about creative combat.</li>
+        <li><strong>Nachoyah Shrine</strong> – Located in the Temple of Time. Solve rotating platforms by combining the Recall ability with precise timing to cross gaps and reach the exit.</li>
+        <li><strong>Ukouh Shrine</strong> – One of the first shrines you'll find. Learn the Ultrahand ability to move platforms and build bridges by connecting materials to navigate the environment.</li>
+        <li><strong>Gutanbac Shrine</strong> – Introduces the Ascend ability. Look for green glows overhead to leap through ceilings and access new areas.</li>
+      </ul>
+      <img src="https://www.zeldadungeon.net/wp-content/uploads/2021/02/Walkthrough_MainImage.jpg" alt="Zelda Dungeon Walkthrough">
+    </div>
+    <div class="card" id="community">
+      <h2>Community Corner</h2>
+      <p>Share your fan art, favorite game moments, cosplay photos, and theories about the Triforce and Zelda lore. Join forums, participate in events, and connect with other Hyrule warriors.</p>
+      <img src="https://cdn.vox-cdn.com/thumbor/6Jcf0u6lXG7eH04nmfhrzKJrHMM=/0x0:1920x1080/920x613/filters:focal(815x128:1121x434):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/72105634/Switch_TheLegendofZeldaTearsoftheKingdom_direct_020823_scrn11.0.jpg" alt="Zelda Community">
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 Zelda Fan Haven. Not affiliated with Nintendo.</p>
+  </footer>
+</body>
+</html>
